@@ -1,23 +1,76 @@
 aid: generation-development-group
+
 name: Generation Development Group
-description: 'Generation Development Group is a company surfaced via the API Evangelist harvest backlog
-  (source: australia-apidays-2026) and added to the network as a stub for full-pipeline profiling.'
+
+description: Generation Development Group Limited (ASX:GDG), founded in 1991, is an ASX-listed Australian diversified financial services company with a market cap of over $2 billion (as at 30 June 2025). It owns Generation Life (investment bonds and lifetime annuities for financial advisers), Lonsec Research and Ratings (qualitative financial research and ratings), and Evidentia Group (managed account solutions for licensees and advisers). Its corporate site publishes investor, governance and shareholder information; no public developer API, documentation or developer portal is published there.
+
 url: https://raw.githubusercontent.com/api-evangelist/generation-development-group/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- Financial Services
+- Investment Bonds
+- Annuities
+- Managed Accounts
+- Investment Research
+- Australia
+- ASX Listed
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://gendevelopmentgroup.com.au/wp-content/uploads/2025/04/GDG-Logo-Golden-1.svg
+
 common:
+- type: Hosts
+  url: hosts/generation-development-group-hosts.yml
+- type: Vendors
+  url: vendors/generation-development-group-vendors.yml
+- type: DomainSecurity
+  url: security/generation-development-group-domain-security.yml
 - type: Website
   url: https://gendevelopmentgroup.com.au/
+- type: Support
+  url: https://gendevelopmentgroup.com.au/contact/
+- type: TermsOfService
+  url: https://gendevelopmentgroup.com.au/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://gendevelopmentgroup.com.au/privacy-policy/
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Corporate site names Generation Development Group Limited (ASX:GDG); no developer portal, docs or API links found on the site.
+  evidence:
+  - url: https://gendevelopmentgroup.com.au/
+    status: 200
+  - url: https://gendevelopmentgroup.com.au/contact/
+    status: 200
+  - url: https://gendevelopmentgroup.com.au/terms-and-conditions/
+    status: 200
+  - url: https://gendevelopmentgroup.com.au/privacy-policy/
+    status: 200
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

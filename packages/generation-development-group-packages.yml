@@ -1,0 +1,9 @@
+generated: '2026-10-21'
+method: none
+note: No first-party SDKs or client libraries found. The corporate site gendevelopmentgroup.com.au publishes no developer docs. npm and PyPI return 404 for generation-development-group, gendevelopmentgroup, lonsec and generationlife. A web search for Generation Development Group, Generation Life, Lonsec and Evidentia developer/API docs surfaced nothing first-party.
+checked:
+- https://registry.npmjs.org/generation-development-group
+- https://pypi.org/pypi/generation-development-group/json
+- https://registry.npmjs.org/lonsec
+- https://pypi.org/pypi/lonsec/json
+packages: []

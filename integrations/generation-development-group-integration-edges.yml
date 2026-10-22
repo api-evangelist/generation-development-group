@@ -1,0 +1,21 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/generation-development-group/integrations
+- https://n8n.io/integrations/generation-development-group/
+- https://composio.dev/toolkits/generation-development-group
+- https://monid.ai/tools/generation-development-group
+checked:
+- https://gendevelopmentgroup.com.au/
+- https://zapier.com/apps/generation-development-group/integrations
+- https://www.make.com/en/integrations/generation-development-group
+- https://n8n.io/integrations/generation-development-group
+- https://composio.dev/toolkits/generation-development-group
+- https://monid.ai/tools/generation-development-group
+- https://n8n.io/integrations/generation-development-group/
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: No integrations page on the corporate site and no marketplace listing was found. Zapier returned 404 and n8n
+  redirected (301) away from the slug. Make answered 403 to a plain GET, so it was not confirmed either way.

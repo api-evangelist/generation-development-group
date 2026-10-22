@@ -1,0 +1,99 @@
+generated: '2026-10-21'
+method: searched
+source:
+- https://gendevelopmentgroup.com.au/privacy-policy/
+- https://gendevelopmentgroup.com.au/terms-and-conditions/
+jurisdiction: Australia (Privacy Act 1988 / Australian Privacy Principles); complaints escalate to AFCA
+signals:
+  data_subject_request:
+    url: https://gendevelopmentgroup.com.au/privacy-policy/
+    section: CLIENT’S ACCESS TO PERSONAL INFORMATION
+    channel: in writing to the Privacy Officer
+    rights_named: [access, copy, correction, note of disagreement, complaint]
+    stated_sla: complaints acknowledged and aimed to be resolved within 30 days
+    escalation: Australian Financial Complaints Authority (AFCA)
+    evidence:
+    - source: https://gendevelopmentgroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "A Client may request access to their Personal Information, and we will endeavour to provide them with a suitable range of choices as to how they can access it (e.g. by email or post) unless a statutory exception applies."
+    - source: https://gendevelopmentgroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "Requests for access and correction to your personal information should be made in writing to our Privacy Officer at the address below."
+    - source: https://gendevelopmentgroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "If we receive a complaint from you, we will acknowledge receipt of it and aim to resolve it within 30 days."
+    note: >-
+      Access, copy and correction rights under the Australian Privacy Principles, exercised in writing to a
+      Privacy Officer, with a 30-day complaint-resolution target and escalation to AFCA. No deletion or
+      portability right is named; destruction is described only as lifecycle practice (see data_retention).
+  ai_transparency:
+    url: https://gendevelopmentgroup.com.au/privacy-policy/
+    section: OPENNESS AND TRANSPARENT MANAGEMENT OF PERSONAL INFORMATION
+    evidence:
+    - source: https://gendevelopmentgroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "As is reasonably necessary to enhance and/or deliver our Products and Services, we may use Artificial Intelligence ( AI ) tools, including generative AI (which are tools capable of learning to generate content), for the purpose of record reviews and analysis, for example, to alert us in aid of safe handling of information."
+    - source: https://gendevelopmentgroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "By a Client interacting with us, they consent to our use of AI as described above. For information about requesting us to opt out of AI use as it relates to you, please contact our Privacy Officer"
+    note: >-
+      Discloses use of AI, including generative AI, on client records for review and analysis, states staff
+      controls and fact-checking, treats interaction as consent, and offers an opt-out on request via the
+      Privacy Officer. No model, vendor or automated-decision detail is given.
+  data_residency:
+    url: https://gendevelopmentgroup.com.au/privacy-policy/
+    section: CROSS-BORDER DISCLOSURE OF PERSONAL INFORMATION
+    evidence:
+    - source: https://gendevelopmentgroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "But, in the event we will disclose Personal Information to overseas recipients – for example, third party service providers, we will take reasonable steps to ensure that where we consider the recipient to be ‘carrying on business’ in Australia, it is complying with Australian privacy law."
+    note: >-
+      The section opens "In general, we do not disclose Personal Information to overseas recipients." That is
+      a general practice, not a residency commitment: overseas disclosure to service providers is allowed, and
+      no countries or hosting regions are named.
+  data_retention:
+    url: https://gendevelopmentgroup.com.au/privacy-policy/
+    section: SECURITY OF PERSONAL INFORMATION
+    evidence:
+    - source: https://gendevelopmentgroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "Where Personal Information is related to a legal matter, it is generally retained for seven years and then destroyed. Personal Information that is part of a Commonwealth record is also to be retained and not de-identified."
+    - source: https://gendevelopmentgroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "Generally, Personal Information is destroyed or de-identified at the end of it’s lifecycle by taking reasonable steps to make that happen."
+    note: >-
+      Names one concrete period (seven years for legal-matter records) and an exception for Commonwealth
+      records. Otherwise retention is open-ended ("end of its lifecycle"), with no schedule.
+  subprocessors:
+    url: https://gendevelopmentgroup.com.au/privacy-policy/
+    section: OPENNESS AND TRANSPARENT MANAGEMENT OF PERSONAL INFORMATION
+    list_published: false
+    evidence:
+    - source: https://gendevelopmentgroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "We take reasonable steps to ensure that where we disclose Personal Information to a third party recipient that we consider to be ‘carrying on business’ in Australia, that recipient is compliant with Australian privacy law including by engaging third parties on terms and conditions such as, that the recipient:"
+    note: >-
+      Lists the contract terms placed on third-party recipients: comply with Australian privacy law, tell GDG
+      about privacy breaches, meet minimum security standards, and follow GDG's retention, destruction or
+      return requirements. No list of subprocessors or vendors is published.
+  incident_notification:
+    url: https://gendevelopmentgroup.com.au/privacy-policy/
+    section: SECURITY OF PERSONAL INFORMATION
+    evidence:
+    - source: https://gendevelopmentgroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "Our Staff and those we engage are expected to consider our processes as relevant to: matters and policies relevant to protecting Personal Information, including whether they should collect the Personal Information at all; access and security policies and our incident and breach program;"
+    note: >-
+      An internal "incident and breach program" exists, and recipients must report privacy breaches to GDG
+      (see subprocessors). The page makes NO commitment to notify clients or regulators, and gives no
+      timeframe. This is an internal-process statement only.
